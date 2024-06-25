@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .activelink {
+    
+   @apply pl-4 rounded-md  w-[80%] py-2 bg-[#F0F7FF] flex gap-4  contrast-100 cursor-pointer
+  }
+  .nonactivelink {
+    
+    @apply pl-4 rounded-md w-[80%]  py-2 hover:bg-[#F0F7FF] hover:contrast-100  flex justify-start gap-4  contrast-[0.1] cursor-pointer
+   }
+}
+
+:root {
+  height: 100%;
+  width: 100%;
+  
+  }
+  body{
+    height: 100%;
+  width: 100%;
+
+  
+  }
+  /* *{
+    border: 1px dashed;
+  } */
