@@ -1,5 +1,5 @@
 
-# Restaurant Landing Page
+# Admin dashboard Page
 
 
 🖥️ Admin dashboard(not responsive)
