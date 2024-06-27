@@ -2,7 +2,7 @@ import React from "react";
 
 const Mainlayout = ({ children }) => {
   return (
-    <div className="   w-full   min-w-[screen] h-full  flex flex-nowrap md:flex-wrap items-start  bg-transparent ">
+    <div className="   w-full max-w-[1280px]   h-full  flex flex-nowrap md:flex-wrap items-start  bg-transparent ">
       {children}
     </div>
   );

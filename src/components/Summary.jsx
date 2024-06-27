@@ -45,7 +45,7 @@ const outcomecards = [
 ];
 const Summary = () => {
   return (
-    <div className="h-full w-[calc((100%-17%)/2)] flex flex-col  gap-4 pl-8 pr-4  py-4">
+    <div className="h-full   flex flex-col  gap-4 pl-8 pr-4  py-4">
       <Usermenu />
       <h1 className="font-bold text-xl">Goals</h1>
       <div className="w-full flex items-center justify-center gap-8">

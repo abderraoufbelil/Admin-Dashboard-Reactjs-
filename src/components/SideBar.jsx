@@ -13,7 +13,7 @@ import Group747 from "/Group747.svg";
 import { NavLink } from "react-router-dom";
 const SideBar = () => {
   return (
-    <div className="py-8 h-full w-[17%]  border-r-[1px] border-slate-400 flex flex-col justify-between items-center">
+    <div className="py-8 h-screen w-[300px]  sticky top-0 left-0  border-r-[1px] border-slate-400 flex flex-col justify-between items-center">
       <div className="w-[80%] self-start flex gap-2 items-center justify-center">
         <img className="w-[40px] object-contain" src={cloud} alt="" />
         <h1 className="font-bold text-2xl text-[#165885]">CloudCash</h1>

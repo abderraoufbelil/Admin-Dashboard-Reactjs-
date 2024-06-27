@@ -6,10 +6,10 @@ import Feed from "../components/Feed";
 import Summary from "../components/Summary";
 const Dashboard = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full flex items-center justify-center">
+      <SideBar />
       <Containerlayout>
         <Mainlayout>
-          <SideBar />
           <Feed />
           <Summary />
         </Mainlayout>
